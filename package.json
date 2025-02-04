@@ -1,6 +1,6 @@
 {
   "name": "pennsieve-ui-library",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "dist/pennsieve-ui-library.umd.js",
   "module": "dist/pennsieve-ui-library.es.js",
   "files": [
