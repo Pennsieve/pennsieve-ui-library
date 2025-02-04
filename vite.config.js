@@ -7,7 +7,7 @@ export default defineConfig({
     lib: {
       entry: './src/index.js',
       name: 'pennsieveTestLibrary',
-      fileName: (format) => `pennsieve-test-library.${format}.js`,
+      fileName: (format) => `pennsieve-ui-library.${format}.js`,
     },
     rollupOptions: {
       external: ['vue'], // Peer dependency
