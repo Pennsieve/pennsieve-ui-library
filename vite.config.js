@@ -10,10 +10,12 @@ export default defineConfig({
       fileName: (format) => `pennsieve-ui-library.${format}.js`,
     },
     rollupOptions: {
-      external: ['vue'], // Peer dependency
+      external: ['vue', 'moment', 'ramda'],
       output: {
         globals: {
           vue: 'Vue',
+          moment: 'moment',
+          ramda: 'R',
         },
       },
     },
